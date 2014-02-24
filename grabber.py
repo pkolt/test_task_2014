@@ -258,7 +258,7 @@ class Application:
         if self._print:
             # Необходимо приобразовывать кодировку строки в кодировку для потока вывода.
             # Иначе в Windows возникает исключение т.к. поток вывода имеет кодировку cp866,
-            # встречая символы юникода отсутствующие в его таблице бросает исключение UnicodeEncodeError.
+            # встречая символы utf-8 отсутствующие в его таблице бросает исключение UnicodeEncodeError.
             print(text.encode(sys.stdout.encoding, errors='ignore').decode(sys.stdout.encoding))
         else:
             fp = self.get_filepath()
