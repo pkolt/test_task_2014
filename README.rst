@@ -7,8 +7,8 @@ Site grabber
 Системные требования
 ====================
 
-Для работы программы необходимо установить интерпретатор `Python >= 3.3`.
-
+* Python >= 3.3
+* lxml >= 3.1
 
 Описание программы
 ==================
@@ -39,9 +39,9 @@ Site grabber
 Программа тестировалась на сайтах
 =================================
 
-* `Lenta.ru <http://lenta.ru/news/2014/02/21/dark/>`_
-* `Uralweb.ru <http://www.uralweb.ru/news/business/421853.html>`_
-* `E1.ru <http://www.e1.ru/news/spool/news_id-401630-section_id-37.html>`_
+* Lenta.ru `http://lenta.ru/news/2014/02/21/dark/ <http://lenta.ru/news/2014/02/21/dark/>`_
+* Uralweb.ru `http://www.uralweb.ru/news/business/421853.html <http://www.uralweb.ru/news/business/421853.html>`_
+* E1.ru `http://www.e1.ru/news/spool/news_id-401630-section_id-37.html <http://www.e1.ru/news/spool/news_id-401630-section_id-37.html>`_
 
 
 Использование и запуск
