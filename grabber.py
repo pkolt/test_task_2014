@@ -256,7 +256,10 @@ class Application:
         text = self.content_strip_tags(html)
         text = self.text_format(text)
         if self._print:
-            print(text)
+            # Необходимо приобразовывать кодировку строки в кодировку для потока вывода.
+            # Иначе в Windows возникает исключение т.к. поток вывода имеет кодировку cp866,
+            # встречая символы юникода отсутствующие в его таблице бросает исключение UnicodeEncodeError.
+            print(text.encode(sys.stdout.encoding, errors='ignore').decode(sys.stdout.encoding))
         else:
             fp = self.get_filepath()
             self.text_save(fp, text)
