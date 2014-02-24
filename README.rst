@@ -39,9 +39,9 @@ Site grabber
 Программа тестировалась на сайтах
 =================================
 
-* Lenta.ru `http://lenta.ru/news/2014/02/21/dark/ <http://lenta.ru/news/2014/02/21/dark/>`_
-* Uralweb.ru `http://www.uralweb.ru/news/business/421853.html <http://www.uralweb.ru/news/business/421853.html>`_
-* E1.ru `http://www.e1.ru/news/spool/news_id-401630-section_id-37.html <http://www.e1.ru/news/spool/news_id-401630-section_id-37.html>`_
+* Lenta.ru `http://lenta.ru/news/2014/02/21/dark/ <http://lenta.ru/news/2014/02/21/dark/>`_ -> `Результат работы <tests_result/lenta.txt>`_
+* Uralweb.ru `http://www.uralweb.ru/news/business/421853.html <http://www.uralweb.ru/news/business/421853.html>`_ -> `Результат работы <tests_result/uralweb.txt>`_
+* E1.ru `http://www.e1.ru/news/spool/news_id-401630-section_id-37.html <http://www.e1.ru/news/spool/news_id-401630-section_id-37.html>`_ -> `Результат работы <tests_result/e1.txt>`_
 
 
 Использование и запуск
