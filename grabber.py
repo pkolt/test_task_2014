@@ -188,6 +188,11 @@ class Application:
                         article.append(elem)
                 else:
                     article.append(elem)
+            elif elem.tag == 'p':
+                span = elem.find('span')
+                if span is not None and span.text and span.text.strip() and len(span.text.strip().split()) > 1:
+                    span.tag = 'p'
+                    article.append(span)
         # Убираем заголовки в конце списка
         while True:
             try:
